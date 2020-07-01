@@ -1,0 +1,2 @@
+# js-faq
+JavaScript FAQ
