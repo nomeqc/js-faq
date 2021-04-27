@@ -2,16 +2,16 @@
 
 ### Array.prototype.map()
 ```js
-const arr1 = ['a', 'b', 'c'].map(item => item + 'c')
-console.log(arr1)
+const arr = ['a', 'b', 'c'].map(item => item + 'c')
+console.log(arr)
 // 输出：["ac", "bc", "cc"]
 ```
 
 ### Array.prototype.filter()
 ```js
 const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
-const arr2 = words.filter(word => word.length > 6);
-console.log(arr2);
+const arr = words.filter(word => word.length > 6);
+console.log(arr);
 // 输出：["exuberant", "destruction", "present"]
 ```
 
@@ -33,8 +33,8 @@ console.log(index)
 
 ### Array.prototype.every()
 ```js
-const result1 = ['a', 'b', 'c'].every(item => item.length == 1)
-console.log(result1)
+const result = ['a', 'b', 'c'].every(item => item.length == 1)
+console.log(result)
 // 输出：true
 ```
 
