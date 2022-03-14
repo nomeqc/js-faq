@@ -1,5 +1,14 @@
 # JS Array 方法示例
 
+### Array.prototype.forEach()
+```js
+const array1 = ['a', 'b', 'c'];
+array1.forEach((v, i, arr) => console.log(v, i, arr));
+//输出："a" 0 Array ["a", "b", "c"]
+//输出："b" 1 Array ["a", "b", "c"]
+//输出："c" 2 Array ["a", "b", "c"]
+```
+
 ### Array.prototype.map()
 ```js
 const arr = ['a', 'b', 'c'].map(item => item + 'c')
